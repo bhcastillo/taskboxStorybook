@@ -8,7 +8,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
           defaultChecked={state === 'TASK_ARCHIVED'}
           disabled={true}
           name="checked"
-          style={{ background: 'red' }}
+          style={{ background: 'blue' }}
         />
         <span
           className="checkbox-custom"
